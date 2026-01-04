@@ -10,6 +10,8 @@ Automated speedtest logger that runs internet speed tests every 5 minutes and sa
 2. Extract the speedtest executable
 3. Place it in the same folder as this program
 
+*This project is unaffiliated with Ookla or Speedtest.*
+
 ## Usage
 
 Run the executable. It will create a timestamped CSV file and start logging speed tests every 5 minutes.
