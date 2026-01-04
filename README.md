@@ -33,4 +33,4 @@ cargo build --release
 
 **Developed for SarahEllae** • [twitch.tv/SarahEllae](https://twitch.tv/SarahEllae)
 
-<sub><sup>Note: Sarah still needs to send comic feet pics. Cubic is acceptable.</sup></sub>
+<sub><sup>Note: Ms Sarah still needs to send comic feet pics. Cubic is acceptable.</sup></sub>
