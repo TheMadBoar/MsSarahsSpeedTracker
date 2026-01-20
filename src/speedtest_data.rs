@@ -7,7 +7,13 @@ use crate::error::{SpeedtestError, SpeedtestResult};
 pub fn run_speedtest() -> SpeedtestResult<SpeedtestStruct> {
     let mut exe_path = std::env::current_exe()?;
     exe_path.pop();
-    exe_path.push("speedtest");
+
+    if cfg!(target_os = "windows") {
+        exe_path.push("speedtest.exe");
+    } else {
+        exe_path.push("speedtest");
+    }
+
     let output = Command::new(exe_path)
         .arg("--accept-license")
         .arg("--format=json")
